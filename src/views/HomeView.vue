@@ -1,13 +1,3 @@
-<script setup>
-import Sidebar from '@/components/sidebar/Sidebar.vue';
-import { ref } from 'vue'
-const collapse = ref(false);
-
-const toggleCollapse = () => {
-  collapse.value = !collapse.value;
-};
-</script>
-
 <template>
   <div class="container-fluid">
     <div class="row">
@@ -18,3 +8,16 @@ const toggleCollapse = () => {
     </div>
   </div>
 </template>
+
+<script setup>
+import Sidebar from '@/components/sidebar/Sidebar.vue';
+import { ref } from 'vue'
+const collapse = ref(false);
+
+const toggleCollapse = () => {
+  collapse.value = !collapse.value;
+};
+
+</script>
+
+

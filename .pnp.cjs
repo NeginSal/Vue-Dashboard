@@ -29,6 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@vitejs/plugin-vue", "virtual:1d0fad552e7171ee922c39e047af6572dcc19f663270b4f175bf7582f79bbaad34450f4a995668509091c468d3145e1f1ddbd83fe06a86ca8dc466e158714703#npm:5.1.3"],\
           ["bootstrap", "virtual:1d0fad552e7171ee922c39e047af6572dcc19f663270b4f175bf7582f79bbaad34450f4a995668509091c468d3145e1f1ddbd83fe06a86ca8dc466e158714703#npm:5.3.3"],\
+          ["bootstrap-icons", "npm:1.11.3"],\
           ["vite", "virtual:1d0fad552e7171ee922c39e047af6572dcc19f663270b4f175bf7582f79bbaad34450f4a995668509091c468d3145e1f1ddbd83fe06a86ca8dc466e158714703#npm:5.4.2"],\
           ["vue", "virtual:1d0fad552e7171ee922c39e047af6572dcc19f663270b4f175bf7582f79bbaad34450f4a995668509091c468d3145e1f1ddbd83fe06a86ca8dc466e158714703#npm:3.4.38"],\
           ["vue-router", "virtual:1d0fad552e7171ee922c39e047af6572dcc19f663270b4f175bf7582f79bbaad34450f4a995668509091c468d3145e1f1ddbd83fe06a86ca8dc466e158714703#npm:4.4.3"]\
@@ -748,6 +749,15 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@popperjs/core",\
           "@types/popperjs__core"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bootstrap-icons", [\
+      ["npm:1.11.3", {\
+        "packageLocation": "../../../.yarn/berry/cache/bootstrap-icons-npm-1.11.3-8d5387bef2-10c0.zip/node_modules/bootstrap-icons/",\
+        "packageDependencies": [\
+          ["bootstrap-icons", "npm:1.11.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1758,6 +1768,7 @@ const RAW_RUNTIME_STATE =
           ["vue-dashboard", "workspace:."],\
           ["@vitejs/plugin-vue", "virtual:1d0fad552e7171ee922c39e047af6572dcc19f663270b4f175bf7582f79bbaad34450f4a995668509091c468d3145e1f1ddbd83fe06a86ca8dc466e158714703#npm:5.1.3"],\
           ["bootstrap", "virtual:1d0fad552e7171ee922c39e047af6572dcc19f663270b4f175bf7582f79bbaad34450f4a995668509091c468d3145e1f1ddbd83fe06a86ca8dc466e158714703#npm:5.3.3"],\
+          ["bootstrap-icons", "npm:1.11.3"],\
           ["vite", "virtual:1d0fad552e7171ee922c39e047af6572dcc19f663270b4f175bf7582f79bbaad34450f4a995668509091c468d3145e1f1ddbd83fe06a86ca8dc466e158714703#npm:5.4.2"],\
           ["vue", "virtual:1d0fad552e7171ee922c39e047af6572dcc19f663270b4f175bf7582f79bbaad34450f4a995668509091c468d3145e1f1ddbd83fe06a86ca8dc466e158714703#npm:3.4.38"],\
           ["vue-router", "virtual:1d0fad552e7171ee922c39e047af6572dcc19f663270b4f175bf7582f79bbaad34450f4a995668509091c468d3145e1f1ddbd83fe06a86ca8dc466e158714703#npm:4.4.3"]\
