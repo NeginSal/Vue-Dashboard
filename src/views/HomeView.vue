@@ -1,10 +1,10 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div :class="collapse ? 'col-lg-1' : 'col-lg-2' ">
-        <Sidebar :toggleCollapse="toggleCollapse"/>
+      <div :class="['bg-primary', collapse ? 'col-lg-1' : 'col-lg-2']">
+        <Sidebar :toggleCollapse="toggleCollapse" :collapse="collapse" />
       </div>
-      <div class="col-lg-10 bg-danger">dddddddd</div>
+      <div :class="['bg-danger', collapse ? 'col-lg-11' : 'col-lg-10']">dddddddd</div>
     </div>
   </div>
 </template>
@@ -19,5 +19,3 @@ const toggleCollapse = () => {
 };
 
 </script>
-
-
